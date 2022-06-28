@@ -37,6 +37,7 @@ section{
     box-shadow: 0px 0px 61px 7px #5e849c40;
     padding: 50px 20px;
     border-radius: 20px;
+    text-align: center;
 }
 
 .header{
@@ -119,6 +120,18 @@ form ion-icon{
 .item:hover h3 {
     bottom: 0;
 }
+
+.load-more{
+    display: inline-block;
+    margin-top:30px;
+    padding: 20px 50px;
+    background-color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: azure;
+    font-weight: 500;
+    cursor: pointer;
+  }
 
 @media only screen and (min-width: 900px) {
     .container {
