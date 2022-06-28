@@ -38,3 +38,49 @@ section{
     padding: 50px 20px;
     border-radius: 20px;
 }
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header h1{
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+
+form{
+    margin-top: 10px;
+    width: 80%;
+    max-width: 300px;
+    position: relative;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.479);
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+    color: grey;
+    background-color: transparent;
+    width: 100%;
+}
+
+input::placeholder {
+    opacity: 0.5;
+    color: gray;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+form ion-icon{
+    position: absolute; /* make sure the parent tag is relative*/
+    right: 0;
+    font-size: 20px;
+    opacity: 0.5;
+    color: gray;
+}
