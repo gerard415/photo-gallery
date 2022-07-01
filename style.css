@@ -84,6 +84,7 @@ form ion-icon{
     font-size: 20px;
     opacity: 0.5;
     color: gray;
+    cursor: pointer;
 }
 
 .gallery {
@@ -94,7 +95,8 @@ form ion-icon{
     grid-gap: 20px;
 }
 
-.item{
+/* styling the div we created in the app.js*/
+.gallery div{
     width: 100%;
     height: 300px;
     position: relative;
@@ -103,11 +105,11 @@ form ion-icon{
     transition: .3s ease box-shadow;
 }
 
-.item:hover{
+.gallery div:hover{
     box-shadow: 0px 0px 20px 3px #00000042; /* to make the box shadow appear after the transition of .3seconds*/
 }
 
-.item h3 {
+.gallery div h3 {
     width: 100%;
     padding: 20px;
     position: absolute;
@@ -117,7 +119,7 @@ form ion-icon{
     font-weight: 300;
     transition: 0.5s ease-in-out bottom;
 }
-.item:hover h3 {
+.gallery div:hover h3 {
     bottom: 0;
 }
 
